@@ -1,0 +1,28 @@
+.container{
+	position:relative;
+}
+.boton{
+	position:absolute;
+	border:2px solid black;
+	background-color:white;
+	border-radius:25px;
+	text-align:center;
+	line-height:100px;
+	color:black;
+	width:15%;
+	height:100px;
+}
+.boton:hover{
+	background-color:#D2D2D2;
+}
+.boton:active{
+	background-color:purple;
+}
+.texto{
+	position:absolute;
+	border:4px solid red;
+	background-color:white;
+	border-radius:25px;
+	font-size:20px;
+	padding:10px;
+}
